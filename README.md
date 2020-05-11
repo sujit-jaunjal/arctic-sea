@@ -165,6 +165,18 @@ Development versions can be optained from the Sonatype OSS snapshot repository:
 
 For details on how to use the components, consult their respective documentation.
 
+## References
+
+- [NeXOS](http://www.nexosproject.eu/)
+- [COLABIS](https://colabis.de/)
+- [SeaDataCloud](https://www.seadatanet.org/About-us/SeaDataCloud)
+- [ODIP II](http://www.odip.eu/)
+- [ConnectinGEO](http://www.connectingeo.net/)
+- [GeoViQua](http://www.geoviqua.org/)
+- [WaCoDiS](https://wacodis.fbg-hsbo.de/)
+- [MuDak-WRM](https://www.mudak-wrm.kit.edu/)
+- [BRIDGES](http://www.bridges-h2020.eu/)
+
 ## Contact
 
 If you encounter any issues with the software or if you would like to see certain functionality added, let us know:
