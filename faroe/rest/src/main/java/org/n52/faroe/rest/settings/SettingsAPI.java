@@ -13,13 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.n52.faroeREST.springrest.settings;
+package org.n52.faroe.rest.settings;
 
-import java.util.List;
 import java.util.Set;
 
 import org.n52.faroe.SettingDefinition;
-import org.n52.faroeREST.springrest.entities.Groups;
+import org.n52.faroeR.rest.entities.Groups;
 
 public interface SettingsAPI {
 
