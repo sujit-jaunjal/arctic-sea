@@ -5,11 +5,11 @@
 
 
     <bean id="settingsService" class="org.n52.faroe.SettingsServiceImpl" />
-    <bean id="JsonSettingsDao" class="org.n52.faroe.json.JsonSettingsDao" />
+    <bean id="settingsDao" class="org.n52.faroe.json.JsonSettingsDao" />
     <bean id="settingsEncoder" class="org.n52.faroe.json.JsonSettingsEncoder" />
     <bean id="settingsDecoder" class="org.n52.faroe.json.JsonSettingsDecoder" />
     <bean id="settingValue" class="org.n52.faroe.json.JsonSettingValueFactory" />
     <bean id="settingConf" class="org.n52.faroe.json.JsonConfiguration" />
-    <bean id="settingServConf" class="org.n52.iceland.ServletConfigLocationProvider" />
-
+	<bean id="servletConfigLocationProvider" class="org.n52.iceland.service.ServletConfigLocationProvider" />
+	<bean id="eventBus" class="org.n52.janmayen.event.EventBus" />
 </beans>

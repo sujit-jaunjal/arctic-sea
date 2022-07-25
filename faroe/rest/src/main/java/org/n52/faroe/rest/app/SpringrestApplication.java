@@ -13,20 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.n52.faroeREST.springrest;
+package org.n52.faroe.rest.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
-import org.n52.janmayen.ConfigLocationProvider;
-import org.n52.janmayen.event.EventBus;
 
 @Configuration
 @EnableAutoConfiguration
 @ImportResource("classpath:faroe.xml")
-
+@ComponentScan({"org.n52.faroe.rest"})
 @SpringBootApplication
 public class SpringrestApplication {
 
